@@ -1,0 +1,544 @@
+[1519735731.417][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "-incognito", "--start-maximized", "--user-agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36" ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "-incognito", "--start-maximized", "--user-agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "-incognito", "--start-maximized", "--user-agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1519735731.421][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1519735731.429][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1519735731.592][INFO]: Launching chrome: "C:\Users\admin\AppData\Local\Google\Chrome\Application\chrome.exe" -incognito --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\admin\AppData\Local\Temp\scoped_dir5904_21145\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12623 --start-maximized --test-type=webdriver --use-mock-keychain --user-agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36" --user-data-dir="C:\Users\admin\AppData\Local\Temp\scoped_dir5904_4529" data:,
+[1519735734.373][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1519735738.444][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73)",
+      "userDataDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir5904_4529"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1519735738.468][INFO]: COMMAND Navigate {
+   "url": "https://www.pinterest.co.uk"
+}
+[1519735738.468][INFO]: Waiting for pending navigations...
+[1519735738.489][INFO]: Done waiting for pending navigations. Status: ok
+[1519735740.459][INFO]: Waiting for pending navigations...
+[1519735752.236][INFO]: Done waiting for pending navigations. Status: ok
+[1519735752.236][INFO]: RESPONSE Navigate
+[1519735772.246][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(text(),'Log in')]/.."
+}
+[1519735772.247][INFO]: Waiting for pending navigations...
+[1519735772.249][INFO]: Done waiting for pending navigations. Status: ok
+[1519735772.305][INFO]: Waiting for pending navigations...
+[1519735772.325][INFO]: Done waiting for pending navigations. Status: ok
+[1519735772.326][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.2723477971133803-1"
+}
+[1519735772.334][INFO]: COMMAND ClickElement {
+   "id": "0.2723477971133803-1"
+}
+[1519735772.334][INFO]: Waiting for pending navigations...
+[1519735772.336][INFO]: Done waiting for pending navigations. Status: ok
+[1519735772.671][INFO]: Waiting for pending navigations...
+[1519735780.999][INFO]: Done waiting for pending navigations. Status: ok
+[1519735780.999][INFO]: RESPONSE ClickElement
+[1519735781.008][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@id='email']"
+}
+[1519735781.008][INFO]: Waiting for pending navigations...
+[1519735781.019][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.050][INFO]: Waiting for pending navigations...
+[1519735781.054][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.054][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.145303756765373-1"
+}
+[1519735781.058][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.145303756765373-1"
+}
+[1519735781.058][INFO]: Waiting for pending navigations...
+[1519735781.060][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.088][INFO]: Waiting for pending navigations...
+[1519735781.089][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.090][INFO]: RESPONSE IsElementDisplayed true
+[1519735781.096][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@id='email']"
+}
+[1519735781.096][INFO]: Waiting for pending navigations...
+[1519735781.098][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.111][INFO]: Waiting for pending navigations...
+[1519735781.113][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.113][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.145303756765373-1"
+}
+[1519735781.118][INFO]: COMMAND TypeElement {
+   "id": "0.145303756765373-1",
+   "value": [ "support@bedkingdom.co.uk" ]
+}
+[1519735781.118][INFO]: Waiting for pending navigations...
+[1519735781.119][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.739][INFO]: Waiting for pending navigations...
+[1519735781.741][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.741][INFO]: RESPONSE TypeElement
+[1519735781.750][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[@id='password']"
+}
+[1519735781.751][INFO]: Waiting for pending navigations...
+[1519735781.753][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.784][INFO]: Waiting for pending navigations...
+[1519735781.786][INFO]: Done waiting for pending navigations. Status: ok
+[1519735781.786][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.145303756765373-2"
+}
+[1519735781.791][INFO]: COMMAND TypeElement {
+   "id": "0.145303756765373-2",
+   "value": [ "rickybobby33" ]
+}
+[1519735781.791][INFO]: Waiting for pending navigations...
+[1519735781.792][INFO]: Done waiting for pending navigations. Status: ok
+[1519735782.113][INFO]: Waiting for pending navigations...
+[1519735782.115][INFO]: Done waiting for pending navigations. Status: ok
+[1519735782.115][INFO]: RESPONSE TypeElement
+[1519735782.129][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//form/button/div[contains(.,'Log in')]/.."
+}
+[1519735782.129][INFO]: Waiting for pending navigations...
+[1519735782.131][INFO]: Done waiting for pending navigations. Status: ok
+[1519735782.160][INFO]: Waiting for pending navigations...
+[1519735782.161][INFO]: Done waiting for pending navigations. Status: ok
+[1519735782.161][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.145303756765373-3"
+}
+[1519735782.166][INFO]: COMMAND ClickElement {
+   "id": "0.145303756765373-3"
+}
+[1519735782.166][INFO]: Waiting for pending navigations...
+[1519735782.167][INFO]: Done waiting for pending navigations. Status: ok
+[1519735782.291][INFO]: Waiting for pending navigations...
+[1519735782.298][INFO]: Done waiting for pending navigations. Status: ok
+[1519735782.298][INFO]: RESPONSE ClickElement
+[1519735787.308][INFO]: COMMAND Navigate {
+   "url": "https://www.pinterest.co.uk/pin/find/?url=https://www.bedkingdom.co.uk/little-folks-furniture-frooti-cabin-bed-red.html"
+}
+[1519735787.316][INFO]: Waiting for pending navigations...
+[1519735796.248][INFO]: Done waiting for pending navigations. Status: ok
+[1519735799.352][INFO]: Waiting for pending navigations...
+[1519735802.612][INFO]: Done waiting for pending navigations. Status: ok
+[1519735802.612][INFO]: RESPONSE Navigate
+[1519735802.623][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735802.623][INFO]: Waiting for pending navigations...
+[1519735802.625][INFO]: Done waiting for pending navigations. Status: ok
+[1519735802.690][INFO]: Waiting for pending navigations...
+[1519735802.694][INFO]: Done waiting for pending navigations. Status: ok
+[1519735802.694][INFO]: RESPONSE FindElements [  ]
+[1519735802.702][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735802.703][INFO]: Waiting for pending navigations...
+[1519735802.704][INFO]: Done waiting for pending navigations. Status: ok
+[1519735802.718][INFO]: Waiting for pending navigations...
+[1519735802.720][INFO]: Done waiting for pending navigations. Status: ok
+[1519735802.720][INFO]: RESPONSE FindElements [  ]
+[1519735804.756][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735804.757][INFO]: Waiting for pending navigations...
+[1519735804.862][INFO]: Done waiting for pending navigations. Status: ok
+[1519735805.026][INFO]: Waiting for pending navigations...
+[1519735805.028][INFO]: Done waiting for pending navigations. Status: ok
+[1519735805.028][INFO]: RESPONSE FindElements [  ]
+[1519735805.065][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735805.066][INFO]: Waiting for pending navigations...
+[1519735805.111][INFO]: Done waiting for pending navigations. Status: ok
+[1519735805.290][INFO]: Waiting for pending navigations...
+[1519735805.338][INFO]: Done waiting for pending navigations. Status: ok
+[1519735805.338][INFO]: RESPONSE FindElements [  ]
+[1519735807.367][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735807.368][INFO]: Waiting for pending navigations...
+[1519735807.389][INFO]: Done waiting for pending navigations. Status: ok
+[1519735807.417][INFO]: Waiting for pending navigations...
+[1519735807.445][INFO]: Done waiting for pending navigations. Status: ok
+[1519735807.446][INFO]: RESPONSE FindElements [  ]
+[1519735807.472][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735807.472][INFO]: Waiting for pending navigations...
+[1519735807.519][INFO]: Done waiting for pending navigations. Status: ok
+[1519735807.574][INFO]: Waiting for pending navigations...
+[1519735807.590][INFO]: Done waiting for pending navigations. Status: ok
+[1519735807.590][INFO]: RESPONSE FindElements [  ]
+[1519735809.596][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735809.596][INFO]: Waiting for pending navigations...
+[1519735809.598][INFO]: Done waiting for pending navigations. Status: ok
+[1519735809.610][INFO]: Waiting for pending navigations...
+[1519735809.612][INFO]: Done waiting for pending navigations. Status: ok
+[1519735809.612][INFO]: RESPONSE FindElements [  ]
+[1519735809.617][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735809.617][INFO]: Waiting for pending navigations...
+[1519735809.620][INFO]: Done waiting for pending navigations. Status: ok
+[1519735809.633][INFO]: Waiting for pending navigations...
+[1519735809.634][INFO]: Done waiting for pending navigations. Status: ok
+[1519735809.634][INFO]: RESPONSE FindElements [  ]
+[1519735811.639][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735811.639][INFO]: Waiting for pending navigations...
+[1519735811.641][INFO]: Done waiting for pending navigations. Status: ok
+[1519735811.652][INFO]: Waiting for pending navigations...
+[1519735811.654][INFO]: Done waiting for pending navigations. Status: ok
+[1519735811.654][INFO]: RESPONSE FindElements [  ]
+[1519735811.659][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735811.659][INFO]: Waiting for pending navigations...
+[1519735811.660][INFO]: Done waiting for pending navigations. Status: ok
+[1519735811.672][INFO]: Waiting for pending navigations...
+[1519735811.673][INFO]: Done waiting for pending navigations. Status: ok
+[1519735811.673][INFO]: RESPONSE FindElements [  ]
+[1519735813.677][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735813.677][INFO]: Waiting for pending navigations...
+[1519735813.679][INFO]: Done waiting for pending navigations. Status: ok
+[1519735813.691][INFO]: Waiting for pending navigations...
+[1519735813.692][INFO]: Done waiting for pending navigations. Status: ok
+[1519735813.692][INFO]: RESPONSE FindElements [  ]
+[1519735813.697][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735813.697][INFO]: Waiting for pending navigations...
+[1519735813.698][INFO]: Done waiting for pending navigations. Status: ok
+[1519735813.709][INFO]: Waiting for pending navigations...
+[1519735813.711][INFO]: Done waiting for pending navigations. Status: ok
+[1519735813.711][INFO]: RESPONSE FindElements [  ]
+[1519735813.715][INFO]: COMMAND GetUrl {
+
+}
+[1519735813.715][INFO]: Waiting for pending navigations...
+[1519735813.716][INFO]: Done waiting for pending navigations. Status: ok
+[1519735813.721][INFO]: Waiting for pending navigations...
+[1519735813.722][INFO]: Done waiting for pending navigations. Status: ok
+[1519735813.722][INFO]: RESPONSE GetUrl "https://www.pinterest.co.uk/pin/find/?url=https://www.bedkingdom.co.uk/little-folks-furniture-frooti-cabin-bed-red.html"
+[1519735821.727][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//h1[contains(.,'Something went wrong')]"
+}
+[1519735821.727][INFO]: Waiting for pending navigations...
+[1519735821.729][INFO]: Done waiting for pending navigations. Status: ok
+[1519735821.741][INFO]: Waiting for pending navigations...
+[1519735821.742][INFO]: Done waiting for pending navigations. Status: ok
+[1519735821.743][INFO]: RESPONSE FindElements [  ]
+[1519735821.748][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollBy(0,1000);"
+}
+[1519735821.748][INFO]: Waiting for pending navigations...
+[1519735821.750][INFO]: Done waiting for pending navigations. Status: ok
+[1519735821.756][INFO]: Waiting for pending navigations...
+[1519735821.808][INFO]: Done waiting for pending navigations. Status: ok
+[1519735821.809][INFO]: RESPONSE ExecuteScript null
+[1519735821.819][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollBy(1000,2000);"
+}
+[1519735821.819][INFO]: Waiting for pending navigations...
+[1519735821.828][INFO]: Done waiting for pending navigations. Status: ok
+[1519735821.846][INFO]: Waiting for pending navigations...
+[1519735821.848][INFO]: Done waiting for pending navigations. Status: ok
+[1519735821.848][INFO]: RESPONSE ExecuteScript null
+[1519735822.854][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollBy(2000,0);"
+}
+[1519735822.854][INFO]: Waiting for pending navigations...
+[1519735822.855][INFO]: Done waiting for pending navigations. Status: ok
+[1519735822.860][INFO]: Waiting for pending navigations...
+[1519735822.861][INFO]: Done waiting for pending navigations. Status: ok
+[1519735822.862][INFO]: RESPONSE ExecuteScript null
+[1519735822.866][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollBy(0,-1000);"
+}
+[1519735822.866][INFO]: Waiting for pending navigations...
+[1519735822.867][INFO]: Done waiting for pending navigations. Status: ok
+[1519735822.873][INFO]: Waiting for pending navigations...
+[1519735823.053][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.053][INFO]: RESPONSE ExecuteScript null
+[1519735823.086][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//h3[contains(text(),'Choose an image to create a Pin')]"
+}
+[1519735823.086][INFO]: Waiting for pending navigations...
+[1519735823.149][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.201][INFO]: Waiting for pending navigations...
+[1519735823.250][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.250][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7138262449517245-1"
+}
+[1519735823.289][INFO]: COMMAND MouseMove {
+   "element": "0.7138262449517245-1"
+}
+[1519735823.289][INFO]: Waiting for pending navigations...
+[1519735823.294][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.567][INFO]: Waiting for pending navigations...
+[1519735823.583][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.583][INFO]: RESPONSE MouseMove
+[1519735823.604][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[contains(@src,'cbd001_red_1.jpg')]/../.."
+}
+[1519735823.604][INFO]: Waiting for pending navigations...
+[1519735823.634][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.682][INFO]: Waiting for pending navigations...
+[1519735823.700][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.700][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7138262449517245-2"
+}
+[1519735823.714][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7138262449517245-2"
+}
+[1519735823.714][INFO]: Waiting for pending navigations...
+[1519735823.731][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.786][INFO]: Waiting for pending navigations...
+[1519735823.832][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.833][INFO]: RESPONSE IsElementDisplayed true
+[1519735823.839][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[contains(@src,'cbd001_red_1.jpg')]/../.."
+}
+[1519735823.839][INFO]: Waiting for pending navigations...
+[1519735823.859][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.921][INFO]: Waiting for pending navigations...
+[1519735823.935][INFO]: Done waiting for pending navigations. Status: ok
+[1519735823.935][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.7138262449517245-2"
+} ]
+[1519735823.950][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[contains(@src,'cbd001_red_1.jpg')]/../.."
+}
+[1519735823.950][INFO]: Waiting for pending navigations...
+[1519735823.997][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.064][INFO]: Waiting for pending navigations...
+[1519735824.088][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.088][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.7138262449517245-2"
+} ]
+[1519735824.103][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*[contains(@src,'cbd001_red_1.jpg')]/../.."
+}
+[1519735824.103][INFO]: Waiting for pending navigations...
+[1519735824.139][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.170][INFO]: Waiting for pending navigations...
+[1519735824.199][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.199][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7138262449517245-2"
+}
+[1519735824.228][INFO]: COMMAND MouseMove {
+   "element": "0.7138262449517245-2"
+}
+[1519735824.228][INFO]: Waiting for pending navigations...
+[1519735824.244][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.345][INFO]: Waiting for pending navigations...
+[1519735824.350][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.350][INFO]: RESPONSE MouseMove
+[1519735824.363][INFO]: COMMAND ClickElement {
+   "id": "0.7138262449517245-2"
+}
+[1519735824.363][INFO]: Waiting for pending navigations...
+[1519735824.367][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.580][INFO]: Waiting for pending navigations...
+[1519735824.594][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.594][INFO]: RESPONSE ClickElement
+[1519735824.604][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@id,'Pin')]//div[contains(@role,'button')]"
+}
+[1519735824.604][INFO]: Waiting for pending navigations...
+[1519735824.609][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.682][INFO]: Waiting for pending navigations...
+[1519735824.695][INFO]: Done waiting for pending navigations. Status: ok
+[1519735824.695][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'Pin')]//div[contains(@role,'button')]"}
+  (Session info: chrome=64.0.3282.167)
+[1519735825.708][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@id,'Pin')]//div[contains(@role,'button')]"
+}
+[1519735825.708][INFO]: Waiting for pending navigations...
+[1519735825.713][INFO]: Done waiting for pending navigations. Status: ok
+[1519735825.737][INFO]: Waiting for pending navigations...
+[1519735825.741][INFO]: Done waiting for pending navigations. Status: ok
+[1519735825.741][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7138262449517245-3"
+}
+[1519735825.746][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.7138262449517245-3"
+}
+[1519735825.746][INFO]: Waiting for pending navigations...
+[1519735825.747][INFO]: Done waiting for pending navigations. Status: ok
+[1519735825.776][INFO]: Waiting for pending navigations...
+[1519735825.778][INFO]: Done waiting for pending navigations. Status: ok
+[1519735825.778][INFO]: RESPONSE IsElementDisplayed true
+[1519735825.783][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@id,'Pin')]//div[contains(@role,'button')]"
+}
+[1519735825.783][INFO]: Waiting for pending navigations...
+[1519735825.784][INFO]: Done waiting for pending navigations. Status: ok
+[1519735825.798][INFO]: Waiting for pending navigations...
+[1519735825.800][INFO]: Done waiting for pending navigations. Status: ok
+[1519735825.800][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7138262449517245-3"
+}
+[1519735825.806][INFO]: COMMAND ClickElement {
+   "id": "0.7138262449517245-3"
+}
+[1519735825.806][INFO]: Waiting for pending navigations...
+[1519735825.808][INFO]: Done waiting for pending navigations. Status: ok
+[1519735825.944][INFO]: Waiting for pending navigations...
+[1519735825.950][INFO]: Done waiting for pending navigations. Status: ok
+[1519735825.950][INFO]: RESPONSE ClickElement
+[1519735825.966][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[contains(@id,'Pin')]//textarea"
+}
+[1519735825.966][INFO]: Waiting for pending navigations...
+[1519735825.993][INFO]: Done waiting for pending navigations. Status: ok
+[1519735826.024][INFO]: Waiting for pending navigations...
+[1519735826.029][INFO]: Done waiting for pending navigations. Status: ok
+[1519735826.029][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7138262449517245-4"
+}
+[1519735826.041][INFO]: COMMAND TypeElement {
+   "id": "0.7138262449517245-4",
+   "value": [ "The Frooti Cabin Bed brought to us by Little Folks Furniture features a unique, modern design with built in storage, making this stunning bed frame a brilliant space saver. The bed frame is availab..." ]
+}
+[1519735826.041][INFO]: Waiting for pending navigations...
+[1519735826.043][INFO]: Done waiting for pending navigations. Status: ok
+[1519735835.366][INFO]: Waiting for pending navigations...
+[1519735835.366][INFO]: Done waiting for pending navigations. Status: disconnected: not connected to DevTools
+[1519735835.452][INFO]: RESPONSE TypeElement
